@@ -1,4 +1,4 @@
-# professional-prompt-engineering-library
+#enterprise-ai-prompt-bundle
 Enterprise AI Prompt Engineering Bundle
 30 Production-Ready Prompts for Real-World Business Use Cases
 1. Executive Summary
