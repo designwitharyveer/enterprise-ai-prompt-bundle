@@ -128,84 +128,62 @@ Many AI failures in enterprise environments are caused by:
 * 📦 **Production-ready**
 * ⭐ **Star if useful**
 
-## 📁 Repository Navigation
+## 📂 Enterprise AI Prompt Bundle - Folder Structure
 
----
+### 01-data-analysis
+- [01-executive-dashboard.prompt.md](01-data-analysis/01-executive-dashboard.prompt.md)
+- [02-root-cause-analysis.prompt.md](01-data-analysis/02-root-cause-analysis.prompt.md)
+- [03-customer-retention.prompt.md](01-data-analysis/03-customer-retention.prompt.md)
+- [04-revenue-forecasting.prompt.md](01-data-analysis/04-revenue-forecasting.prompt.md)
+- [05-operational-efficiency.prompt.md](01-data-analysis/05-operational-efficiency.prompt.md)
+- [06-risk-anomaly-detection.prompt.md](01-data-analysis/06-risk-anomaly-detection.prompt.md)
 
-### 📊 01. Data Analysis
+### 02-content-generation
+- [01-technical-documentation.prompt.md](02-content-generation/01-technical-documentation.prompt.md)
+- [02-professional-email-response.prompt.md](02-content-generation/02-professional-email-response.prompt.md)
+- [03-meeting-intelligence.prompt.md](02-content-generation/03-meeting-intelligence.prompt.md)
+- [04-product-requirements-doc.prompt.md](02-content-generation/04-product-requirements-doc.prompt.md)
+- [05-case-study-builder.prompt.md](02-content-generation/05-case-study-builder.prompt.md)
+- [06-executive-summary.prompt.md](02-content-generation/06-executive-summary.prompt.md)
 
-- 📈 [Executive Business Intelligence Dashboard](01-data-analysis/01-executive-dashboard.prompt.md)
-- 🧩 [Root Cause Analysis Framework](01-data-analysis/02-root-cause-analysis.prompt.md)
-- 🔁 [Customer Retention Analysis](01-data-analysis/03-customer-retention.prompt.md)
-- 📉 [Revenue Forecasting Engine](01-data-analysis/04-revenue-forecasting.prompt.md)
-- ⚙️ [Operational Efficiency Diagnostics](01-data-analysis/05-operational-efficiency.prompt.md)
-- 🚨 [Risk & Anomaly Detection System](01-data-analysis/06-risk-anomaly-detection.prompt.md)
+### 03-code-technical
+- [01-intelligent-code-review.prompt.md](03-code-technical/01-intelligent-code-review.prompt.md)
+- [02-bug-triage-debugging.prompt.md](03-code-technical/02-bug-triage-debugging.prompt.md)
+- [03-api-documentation.prompt.md](03-code-technical/03-api-documentation.prompt.md)
+- [04-code-refactoring.prompt.md](03-code-technical/04-code-refactoring.prompt.md)
+- [05-test-case-generation.prompt.md](03-code-technical/05-test-case-generation.prompt.md)
+- [06-technical-concept-explainer.prompt.md](03-code-technical/06-technical-concept-explainer.prompt.md)
 
----
+### 04-business-intelligence
+- [01-swot-analysis.prompt.md](04-business-intelligence/01-swot-analysis.prompt.md)
+- [02-market-entry-strategy.prompt.md](04-business-intelligence/02-market-entry-strategy.prompt.md)
+- [03-risk-assessment-mitigation.prompt.md](04-business-intelligence/03-risk-assessment-mitigation.prompt.md)
+- [04-roi-business-case-calculator.prompt.md](04-business-intelligence/04-roi-business-case-calculator.prompt.md)
+- [05-stakeholder-communication-matrix.prompt.md](04-business-intelligence/05-stakeholder-communication-matrix.prompt.md)
+- [06-decision-framework-generator.prompt.md](04-business-intelligence/06-decision-framework-generator.prompt.md)
 
-### ✍️ 02. Content Generation
+### 05-workflow-optimization
+- [01-prompt-chain-architect.prompt.md](05-workflow-optimization/01-prompt-chain-architect.prompt.md)
+- [02-context-window-optimizer.prompt.md](05-workflow-optimization/02-context-window-optimizer.prompt.md)
+- [03-output-quality-checker.prompt.md](05-workflow-optimization/03-output-quality-checker.prompt.md)
+- [04-few-shot-template-builder.prompt.md](05-workflow-optimization/04-few-shot-template-builder.prompt.md)
+- [05-multi-model-orchestration.prompt.md](05-workflow-optimization/05-multi-model-orchestration.prompt.md)
+- [06-prompt-ab-testing-system.prompt.md](05-workflow-optimization/06-prompt-ab-testing-system.prompt.md)
 
-- 🧾 [Technical Documentation Generator](02-content-generation/01-technical-docs.prompt.md)
-- 📧 [Professional Email Response System](02-content-generation/02-email-responses.prompt.md)
-- 🗒️ [Meeting Notes & Action Items](02-content-generation/03-meeting-notes.prompt.md)
-- 📦 [Product Requirements Document (PRD) Generator](02-content-generation/04-prd-generator.prompt.md)
-- 🏆 [Case Studies & Success Stories Builder](02-content-generation/05-case-studies.prompt.md)
-- 🧠 [Executive Summary Generator](02-content-generation/06-executive-summaries.prompt.md)
+### examples
+- [01-customer-retention-example.md](examples/01-customer-retention-example.md)
 
----
+### templates
+- [01-prompt-design-framework.md](templates/01-prompt-design-framework.md)
+- [02-master-prompt-template.md](templates/02-master-prompt-template.md)
 
-### 💻 03. Code & Technical Automation
+### Root files
+- [.gitignore](.gitignore)
+- [CHANGELOG.md](CHANGELOG.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [LICENSE](LICENSE)
+- [README.md](README.md)
 
-- 🔍 [Intelligent Code Review Assistant](03-code-technical/01-code-review.prompt.md)
-- 🐞 [Bug Triage & Debugging Framework](03-code-technical/02-bug-debugging.prompt.md)
-- 🔗 [API Documentation Automation](03-code-technical/03-api-docs.prompt.md)
-- ♻️ [Code Refactoring Recommendations](03-code-technical/04-refactoring.prompt.md)
-- 🧪 [Automated Test Case Generation](03-code-technical/05-test-generation.prompt.md)
-- 📘 [Technical Concept Explainer](03-code-technical/06-concept-explainer.prompt.md)
-
----
-
-### 📈 04. Strategic Business Intelligence
-
-- 🧭 [SWOT Analysis Automation](04-business-intelligence/01-swot-analysis.prompt.md)
-- 🌍 [Market Entry Strategy Framework](04-business-intelligence/02-market-entry.prompt.md)
-- ⚠️ [Risk Assessment & Mitigation Planner](04-business-intelligence/03-risk-assessment.prompt.md)
-- 💰 [ROI & Business Case Calculator](04-business-intelligence/04-roi-calculator.prompt.md)
-- 🤝 [Stakeholder Communication Matrix](04-business-intelligence/05-stakeholder-comms.prompt.md)
-- 🧠 [Decision Framework Generator](04-business-intelligence/06-decision-framework.prompt.md)
-
----
-
-### ⚙️ 05. AI Workflow Optimization
-
-- 🔗 [Prompt Chain Architect](05-workflow-optimization/01-prompt-chain-architect.prompt.md)
-- 🪟 [Context Window Optimizer](05-workflow-optimization/02-context-window-optimizer.prompt.md)
-- ✅ [Output Validation & Quality Checker](05-workflow-optimization/03-output-quality-checker.prompt.md)
-- 🎯 [Few-Shot Learning Template Builder](05-workflow-optimization/04-few-shot-template-builder.prompt.md)
-- 🔀 [Multi-Model Orchestration Framework](05-workflow-optimization/05-multi-model-orchestration.prompt.md)
-- 🧪 [Prompt A/B Testing System](05-workflow-optimization/06-prompt-ab-testing-system.prompt.md)
-
----
-
-### 📂 Examples
-
-- 🧠 [Customer Retention – Filled Example](examples/01-customer-retention-example.md)
-
----
-
-### 🧩 Templates
-
-- 🏗️ [Prompt Design Framework](templates/01-prompt-design-framework.md)
-- 🧠 [Enterprise Master Prompt Template](templates/02-master-prompt-template.md)
-
----
-
-### 📄 Project Files
-
-- 📘 [README](README.md)
-- 📝 [CHANGELOG](CHANGELOG.md)
-- 🤝 [CONTRIBUTING](CONTRIBUTING.md)
-- ⚖️ [LICENSE](LICENSE)
 
 
 ### 🧠 Prompt Design Philosophy (Small → Big → Deep)
