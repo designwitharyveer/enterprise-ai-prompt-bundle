@@ -73,46 +73,6 @@ Many AI failures in enterprise environments are caused by:
 
 ### 📂 **Repository Structure**
 
-* **enterprise-ai-prompt-bundle/**
-  * **01-data-analysis/**
-    * executive-dashboard.md
-    * anomaly-detection.md
-    * trend-forecasting.md
-    * competitive-intelligence.md
-    * customer-patterns.md
-    * performance-metrics.md
-  * **02-content-generation/**
-    * technical-docs.md
-    * email-responses.md
-    * meeting-notes.md
-    * prd-generator.md
-    * case-studies.md
-    * executive-summaries.md
-  * **03-code-technical/**
-    * code-review.md
-    * debugging.md
-    * api-docs.md
-    * refactoring.md
-    * test-generation.md
-    * concept-explainer.md
-  * **04-business-intelligence/**
-    * swot-analysis.md
-    * market-entry.md
-    * risk-assessment.md
-    * roi-calculator.md
-    * stakeholder-comms.md
-    * decision-framework.md
-  * **05-workflow-optimization/**
-    * prompt-chains.md
-    * context-optimizer.md
-    * quality-checker.md
-    * few-shot-builder.md
-    * model-orchestration.md
-    * ab-testing.md
-  * **templates/**
-    * master_prompt_template.md
-  * **README.md**
-  * **LICENSE**
 
 ### 🧠 Prompt Design Philosophy (Small → Big → Deep)
 
