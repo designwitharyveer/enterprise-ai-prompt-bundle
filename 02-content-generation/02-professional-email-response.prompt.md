@@ -33,7 +33,7 @@ Generate **polished email responses** that are:
 - Email purpose: inquiry, escalation, follow-up, negotiation  
 - Critical context: prior communications, deadlines, agreements  
 
-⚠️ Highlight missing context or unclear instructions.
+⚠️ Highlight missing context or unclear instructions. 
 
 ---
 
