@@ -128,63 +128,65 @@ Many AI failures in enterprise environments are caused by:
 * 📦 **Production-ready**
 * ⭐ **Star if useful**
 
-## 📂 Enterprise AI Prompt Bundle - Folder Structure
+# 🚀 Enterprise AI Prompt Bundle - Folder Structure
 
-### 01-data-analysis
-- [01-executive-dashboard.prompt.md](01-data-analysis/01-executive-dashboard.prompt.md)
-- [02-root-cause-analysis.prompt.md](01-data-analysis/02-root-cause-analysis.prompt.md)
-- [03-customer-retention.prompt.md](01-data-analysis/03-customer-retention.prompt.md)
-- [04-revenue-forecasting.prompt.md](01-data-analysis/04-revenue-forecasting.prompt.md)
-- [05-operational-efficiency.prompt.md](01-data-analysis/05-operational-efficiency.prompt.md)
-- [06-risk-anomaly-detection.prompt.md](01-data-analysis/06-risk-anomaly-detection.prompt.md)
+Explore the repo by clicking on the files below. Each file contains **production-ready prompts** designed for **enterprise AI workflows**.  
 
-### 02-content-generation
-- [01-technical-documentation.prompt.md](02-content-generation/01-technical-documentation.prompt.md)
-- [02-professional-email-response.prompt.md](02-content-generation/02-professional-email-response.prompt.md)
-- [03-meeting-intelligence.prompt.md](02-content-generation/03-meeting-intelligence.prompt.md)
-- [04-product-requirements-doc.prompt.md](02-content-generation/04-product-requirements-doc.prompt.md)
-- [05-case-study-builder.prompt.md](02-content-generation/05-case-study-builder.prompt.md)
-- [06-executive-summary.prompt.md](02-content-generation/06-executive-summary.prompt.md)
+---
 
-### 03-code-technical
-- [01-intelligent-code-review.prompt.md](03-code-technical/01-intelligent-code-review.prompt.md)
-- [02-bug-triage-debugging.prompt.md](03-code-technical/02-bug-triage-debugging.prompt.md)
-- [03-api-documentation.prompt.md](03-code-technical/03-api-documentation.prompt.md)
-- [04-code-refactoring.prompt.md](03-code-technical/04-code-refactoring.prompt.md)
-- [05-test-case-generation.prompt.md](03-code-technical/05-test-case-generation.prompt.md)
-- [06-technical-concept-explainer.prompt.md](03-code-technical/06-technical-concept-explainer.prompt.md)
+## 📊 01-data-analysis
+- 📈 [01-executive-dashboard.prompt.md](01-data-analysis/01-executive-dashboard.prompt.md)
+- 🛠️ [02-root-cause-analysis.prompt.md](01-data-analysis/02-root-cause-analysis.prompt.md)
+- 👥 [03-customer-retention.prompt.md](01-data-analysis/03-customer-retention.prompt.md)
+- 💰 [04-revenue-forecasting.prompt.md](01-data-analysis/04-revenue-forecasting.prompt.md)
+- ⚙️ [05-operational-efficiency.prompt.md](01-data-analysis/05-operational-efficiency.prompt.md)
+- 🚨 [06-risk-anomaly-detection.prompt.md](01-data-analysis/06-risk-anomaly-detection.prompt.md)
 
-### 04-business-intelligence
-- [01-swot-analysis.prompt.md](04-business-intelligence/01-swot-analysis.prompt.md)
-- [02-market-entry-strategy.prompt.md](04-business-intelligence/02-market-entry-strategy.prompt.md)
-- [03-risk-assessment-mitigation.prompt.md](04-business-intelligence/03-risk-assessment-mitigation.prompt.md)
-- [04-roi-business-case-calculator.prompt.md](04-business-intelligence/04-roi-business-case-calculator.prompt.md)
-- [05-stakeholder-communication-matrix.prompt.md](04-business-intelligence/05-stakeholder-communication-matrix.prompt.md)
-- [06-decision-framework-generator.prompt.md](04-business-intelligence/06-decision-framework-generator.prompt.md)
+## ✍️ 02-content-generation
+- 📄 [01-technical-documentation.prompt.md](02-content-generation/01-technical-documentation.prompt.md)
+- 📧 [02-professional-email-response.prompt.md](02-content-generation/02-professional-email-response.prompt.md)
+- 📝 [03-meeting-intelligence.prompt.md](02-content-generation/03-meeting-intelligence.prompt.md)
+- 📦 [04-product-requirements-doc.prompt.md](02-content-generation/04-product-requirements-doc.prompt.md)
+- 📚 [05-case-study-builder.prompt.md](02-content-generation/05-case-study-builder.prompt.md)
+- 🏢 [06-executive-summary.prompt.md](02-content-generation/06-executive-summary.prompt.md)
 
-### 05-workflow-optimization
-- [01-prompt-chain-architect.prompt.md](05-workflow-optimization/01-prompt-chain-architect.prompt.md)
-- [02-context-window-optimizer.prompt.md](05-workflow-optimization/02-context-window-optimizer.prompt.md)
-- [03-output-quality-checker.prompt.md](05-workflow-optimization/03-output-quality-checker.prompt.md)
-- [04-few-shot-template-builder.prompt.md](05-workflow-optimization/04-few-shot-template-builder.prompt.md)
-- [05-multi-model-orchestration.prompt.md](05-workflow-optimization/05-multi-model-orchestration.prompt.md)
-- [06-prompt-ab-testing-system.prompt.md](05-workflow-optimization/06-prompt-ab-testing-system.prompt.md)
+## 💻 03-code-technical
+- 🛡️ [01-intelligent-code-review.prompt.md](03-code-technical/01-intelligent-code-review.prompt.md)
+- 🐞 [02-bug-triage-debugging.prompt.md](03-code-technical/02-bug-triage-debugging.prompt.md)
+- 📜 [03-api-documentation.prompt.md](03-code-technical/03-api-documentation.prompt.md)
+- 🔧 [04-code-refactoring.prompt.md](03-code-technical/04-code-refactoring.prompt.md)
+- ✅ [05-test-case-generation.prompt.md](03-code-technical/05-test-case-generation.prompt.md)
+- 💡 [06-technical-concept-explainer.prompt.md](03-code-technical/06-technical-concept-explainer.prompt.md)
 
-### examples
-- [01-customer-retention-example.md](examples/01-customer-retention-example.md)
+## 📈 04-business-intelligence
+- 📊 [01-swot-analysis.prompt.md](04-business-intelligence/01-swot-analysis.prompt.md)
+- 🌐 [02-market-entry-strategy.prompt.md](04-business-intelligence/02-market-entry-strategy.prompt.md)
+- ⚖️ [03-risk-assessment-mitigation.prompt.md](04-business-intelligence/03-risk-assessment-mitigation.prompt.md)
+- 💹 [04-roi-business-case-calculator.prompt.md](04-business-intelligence/04-roi-business-case-calculator.prompt.md)
+- 🗂️ [05-stakeholder-communication-matrix.prompt.md](04-business-intelligence/05-stakeholder-communication-matrix.prompt.md)
+- 🏗️ [06-decision-framework-generator.prompt.md](04-business-intelligence/06-decision-framework-generator.prompt.md)
 
-### templates
-- [01-prompt-design-framework.md](templates/01-prompt-design-framework.md)
-- [02-master-prompt-template.md](templates/02-master-prompt-template.md)
+## ⚙️ 05-workflow-optimization
+- 🔗 [01-prompt-chain-architect.prompt.md](05-workflow-optimization/01-prompt-chain-architect.prompt.md)
+- 🧠 [02-context-window-optimizer.prompt.md](05-workflow-optimization/02-context-window-optimizer.prompt.md)
+- ✔️ [03-output-quality-checker.prompt.md](05-workflow-optimization/03-output-quality-checker.prompt.md)
+- 📝 [04-few-shot-template-builder.prompt.md](05-workflow-optimization/04-few-shot-template-builder.prompt.md)
+- 🤖 [05-multi-model-orchestration.prompt.md](05-workflow-optimization/05-multi-model-orchestration.prompt.md)
+- 🧪 [06-prompt-ab-testing-system.prompt.md](05-workflow-optimization/06-prompt-ab-testing-system.prompt.md)
 
-### Root files
-- [.gitignore](.gitignore)
-- [CHANGELOG.md](CHANGELOG.md)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [LICENSE](LICENSE)
-- [README.md](README.md)
+## 🗂️ examples
+- 👥 [01-customer-retention-example.md](examples/01-customer-retention-example.md)
 
+## 📐 templates
+- 🛠️ [01-prompt-design-framework.md](templates/01-prompt-design-framework.md)
+- 🏗️ [02-master-prompt-template.md](templates/02-master-prompt-template.md)
 
+## 📄 Root files
+- 📌 [.gitignore](.gitignore)
+- 📝 [CHANGELOG.md](CHANGELOG.md)
+- 🤝 [CONTRIBUTING.md](CONTRIBUTING.md)
+- ⚖️ [LICENSE](LICENSE)
+- 📖 [README.md](README.md)
 
 ### 🧠 Prompt Design Philosophy (Small → Big → Deep)
 
@@ -467,3 +469,20 @@ Use accordingly.
 **This bundle ensures AI outputs are dependable, auditable, and professional.**
 
 ⭐ **Star if this repository adds value.**
+
+## 🔗 Share This Project
+
+You can explore and use the **Enterprise AI Prompt Bundle** in the following ways:
+
+1. **Direct GitHub Access:**  
+   [View on GitHub](https://github.com/designwitharyveer/enterprise-ai-prompt-bundle)
+
+2. **Stable Release v1.0.0:**  
+   [Download / View Release](https://github.com/designwitharyveer/enterprise-ai-prompt-bundle/releases/tag/v1.0.0)
+
+3. **Download as ZIP:**  
+   Click **Code → Download ZIP** on GitHub repo page
+
+4. **Clone via Git:**  
+```bash
+git clone https://github.com/designwitharyveer/enterprise-ai-prompt-bundle.git
