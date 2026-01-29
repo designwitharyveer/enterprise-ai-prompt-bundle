@@ -1,0 +1,60 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f4f6fb;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+header {
+  background: #0a0f2c;
+  color: #fff;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1em;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.prompt {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.prompt h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  color: #0a0f2c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
