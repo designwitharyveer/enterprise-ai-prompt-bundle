@@ -1,0 +1,29 @@
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+}
+
+header {
+  background: #0a0f2c;
+  color: white;
+  padding: 30px;
+}
+
+main {
+  padding: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.prompt {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
