@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Executive Dashboard",
+    "content": "Generate an executive-level BI dashboard summarizing KPIs, risks, and opportunities for enterprise decision-making."
+  },
+  {
+    "title": "Root Cause Analysis",
+    "content": "Analyze a problem and identify root causes using structured reasoning and logical deduction."
+  },
+  {
+    "title": "Customer Retention Strategy",
+    "content": "Create actionable strategies to improve retention and loyalty for enterprise customers."
+  },
+  {
+    "title": "Revenue Forecasting",
+    "content": "Predict next quarter revenue using historical trends and market analysis."
+  },
+  {
+    "title": "Operational Efficiency",
+    "content": "Identify inefficiencies in operations and propose optimized workflows."
+  },
+  {
+    "title": "Risk & Anomaly Detection",
+    "content": "Detect potential risks or anomalies in business processes and data."
+  }
+]
