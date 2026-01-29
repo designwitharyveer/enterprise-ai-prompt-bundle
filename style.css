@@ -1,60 +1,106 @@
+/* --- Global Reset & Variables --- */
+:root {
+  --bg-color: #0d1117;        /* GitHub Dark Background */
+  --card-bg: #161b22;         /* Slightly lighter card */
+  --text-primary: #c9d1d9;    /* Soft White */
+  --text-secondary: #8b949e;  /* Gray */
+  --accent-color: #58a6ff;    /* GitHub Blue */
+  --border-color: #30363d;    /* Subtle border */
+  --success-color: #238636;   /* Green for 'Copied!' */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Inter", Arial, sans-serif;
-  background-color: #f4f6fb;
-  margin: 0;
-  color: #1a1a1a;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  padding: 40px 20px;
 }
 
-header {
-  background: #0a0f2c;
-  color: #fff;
-  padding: 40px 30px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2.2em;
-  margin: 0;
-}
-
-header p {
-  font-size: 1.1em;
-  margin-top: 8px;
-  opacity: 0.8;
-}
-
-main {
-  padding: 30px;
-  max-width: 1000px;
+/* --- Container for the Cards --- */
+#prompt-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-input {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 25px;
-  font-size: 16px;
+/* --- The Card Design --- */
+.prompt-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
   border-radius: 8px;
-  border: 1px solid #ccc;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.prompt {
-  background: #fff;
-  padding: 25px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+.prompt-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  border-color: var(--accent-color);
 }
 
-.prompt h3 {
-  margin-top: 0;
-  font-size: 1.3em;
-  color: #0a0f2c;
+/* --- Card Typography --- */
+.prompt-card h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 12px;
 }
 
-footer {
+.prompt-card p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  flex-grow: 1; /* Pushes button to bottom */
+}
+
+/* --- Badge / Category Tag --- */
+.badge {
+  display: inline-block;
+  background-color: rgba(56, 139, 253, 0.15); /* Transparent Blue */
+  color: var(--accent-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 100px; /* Pill shape */
+  border: 1px solid rgba(56, 139, 253, 0.4);
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+/* --- Copy Button --- */
+.copy-btn {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  width: 100%;
   text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #555;
+}
+
+.copy-btn:hover {
+  background-color: #21262d;
+  border-color: var(--text-secondary);
+}
+
+/* --- Success State (triggered by JS) --- */
+.copy-btn.copied {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+  color: white;
 }
